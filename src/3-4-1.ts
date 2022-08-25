@@ -15,9 +15,10 @@ const obj: Family<number, string> = {
   child: "300",
 };
 
-const objerr: Family = {
-  mother: 1000,
-  father: 2000,
-  child: "3000",
-};
+// error
+// const objerr: Family = {
+//   mother: 1000,
+//   father: 2000,
+//   child: "3000",
+// };
 export {};

@@ -18,6 +18,7 @@ type Family2<Parent extends HasName, child extends Parent> = {
 };
 
 type S = Family2<Animal, Human>;
-type ERR = Family2<Human, Animal>;
+// error
+// type ERR = Family2<Human, Animal>;
 
 export {};
