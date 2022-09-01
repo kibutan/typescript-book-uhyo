@@ -11,3 +11,9 @@ const mysteryFunc614 = Math.random() < 0.5 ? getName : getSpecies;
 const uhyo614: Human614 = { name: "uhyo" };
 
 // mysteryFunc614(uhyo614);
+const humanimal614: Human614 & Animal614 = {
+  name: "uhyo",
+  species: "Homo sapiens sapiens",
+};
+
+console.log(mysteryFunc614(humanimal614));
