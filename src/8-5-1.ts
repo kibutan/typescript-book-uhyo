@@ -1,10 +1,6 @@
 import { readFile } from "fs/promises";
-try {
-  const p851 = await readFile("./wuhyo.txt", "utf8");
-  const body851 = p851.toString().split("\n");
-} catch {
-  console.log("error");
-}
+const p851 = await readFile("./wuhyo.txt", "utf8");
+const body851 = p851.toString().split("\n");
 
 let count = 0;
 let currentIndex = 0;
